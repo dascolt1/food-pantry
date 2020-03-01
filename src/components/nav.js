@@ -19,9 +19,6 @@ function Nav() {
             <Link to="/feed">
                 <li className="nav-item p-3">Donate</li>
             </Link>
-            <Link to="/register">
-                <li className="nav-item p-3">Pantry Owner</li>
-            </Link>
             {/* <Link to="/login">
                 <li className="nav-item p-3">Login</li>
             </Link> */}

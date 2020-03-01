@@ -9,7 +9,10 @@ class PostList extends React.Component {
                 {
                     posts.map((_todo, _index) => {
                         return (
-                        <div className="bg-primary w-50 mx-auto mb-3 p-5 rounded" key={_index}>{_todo}</div>
+                        <div className="bg-primary w-50 mx-auto mb-3 p-5 rounded" key={_index}>{_todo} 
+                        <button
+                        className="btn btn-light ml-5"
+                        >Claim</button></div>
                         )
                     })
                     
@@ -19,4 +22,4 @@ class PostList extends React.Component {
     }
 }
 
-export default PostList
+export default PostList;

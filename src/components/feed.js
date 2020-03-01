@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 
-import PostList from '../components/PostList'
+
 import AddPost from '../AddPost/addPost'
+import PostList from './PostList';
 
 class Feed extends Component{
     constructor() {
@@ -15,7 +16,7 @@ class Feed extends Component{
     render() {
         return (
             <div className="wrapper">
-              <AddPost addPostFn={this.addPost} />
+              <AddPost addPostFn={this.addPost}/>
               <PostList posts={this.state.posts} />
             </div>
         )
