@@ -1,0 +1,18 @@
+/* No CSS *//*# sourceMappingURL=App.css.map */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73, 79, 82);
+    color: white;
+}
+
+.nav-item {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    text-decoration: none;
+}

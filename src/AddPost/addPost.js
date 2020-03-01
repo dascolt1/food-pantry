@@ -62,8 +62,9 @@ constructor() {
                     <button
                     onClick={this.confirm}>
                     Add food</button>
-                    <button onClick={localStorage.clear()}>clear all</button>
+                    
                 </form>
+                <button onClick={localStorage.clear()}>clear all</button>
             </div>
         )
     }   
@@ -76,7 +77,7 @@ constructor() {
    
     handleZip = (e) => {
 
-        let zip = parseInt(e.target.value);
+        let zip = e.target.value;
         this.setState({
             zip: zip
         }) 

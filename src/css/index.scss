@@ -1,0 +1,18 @@
+$theme-colors: (
+    "light": #f5eaea,
+    "dark": #4d4646,
+    "primary": #7fcd91,
+    "danger": #ff4136
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    $main: #5b5656;
+    background-color: $light;
+    header{
+        background-color: $main;
+        height: 75px;
+        
+    }
+}
