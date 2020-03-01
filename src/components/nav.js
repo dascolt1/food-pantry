@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import {Link} from 'react-router-dom'
-
 function Nav() {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -15,17 +14,17 @@ function Nav() {
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
             <Link to="/">
-                <li className="nav-item">Home</li>
+                <li className="nav-item p-3">Home</li>
             </Link>
             <Link to="/feed">
-                <li className="nav-item">Feed</li>
+                <li className="nav-item p-3">Donate</li>
             </Link>
             <Link to="/register">
-                <li className="nav-item">Register</li>
+                <li className="nav-item p-3">Pantry Owner</li>
             </Link>
-            <Link to="/login">
-                <li className="nav-item">Login</li>
-            </Link>
+            {/* <Link to="/login">
+                <li className="nav-item p-3">Login</li>
+            </Link> */}
         </ul>
       </div>
     </div>
