@@ -1,0 +1,49 @@
+$theme-colors: (
+    "light": #f5eaea,
+    "dark": #4d4646,
+    "primary": #7fcd91,
+    "danger": #ff4136
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    $main: #5b5656;
+    background-color: $light;
+    font-family: 'Poppins';
+    header{
+        background-color: $main;
+        height: 75px;
+        
+    }
+    .addPostContainer {
+        color: $light;
+        
+    }
+    .zip-code {
+        // float: left;
+    }
+    .background-one {
+        margin-top: 3%;
+        background: url('https://www.wallpaperup.com/uploads/wallpapers/2017/05/21/1090204/4685c8c6cd1de990499a154c64dd2d25.jpg') no-repeat center center fixed;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 500px;
+        img {
+            z-index: 2;
+        }
+    }
+
+    .background-two {
+        background: url('https://thebristolcable.org/wp-content/uploads/2017/06/33322683793_100c9dd8d4_k-1900x1080.jpg') no-repeat center center fixed;
+        // webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        .bg-two {
+            height: 200px;
+        }
+    }
+}
