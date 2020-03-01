@@ -104,8 +104,10 @@ constructor() {
 
         this.confirm();
         
-        this.props.addPostFn(this.state.post)
-        // document.getElementById('addPostInput').value = ''
+        if(this.state.zip !== 0 && this.state.zip.length === 5){
+            this.props.addPostFn(this.state.post)
+        }
+        
         e.preventDefault();
         
     }
